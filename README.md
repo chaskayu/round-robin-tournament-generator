@@ -1,4 +1,17 @@
 
+# Round Robin Tournament Generator
+
+A javascript function that create a schedule where every team plays against every other team exactly once.
+
+## Parameters
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `teams` | `array` | **Required**. Array of teams. The array items can be anything. |
+| `isDouble` | `boolean` | **Optional**. If true, double rounds of fixtures will be returned. |
+
+
+
 ## Usage/Examples
 
 Get the raw result:
@@ -80,3 +93,8 @@ rounds.forEach((fixtures, i_fixture) => {
 ```
 #### Results:
 ![Demo](https://raw.githubusercontent.com/chaskayu/round-robin-tournament-generator/main/demo.png)
+
+## Feedback
+
+If you have any feedback, please reach out to me at chaska.yu@gmail.com
+
